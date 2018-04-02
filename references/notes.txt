@@ -1,0 +1,17 @@
+Missing values
+    There is alot of missing value
+
+Clustering
+   I want to try clustering. Just by interest...
+
+External data
+    Could be cool to use external data if possible.
+
+   #idea I want to implement a GGAlly version for Python. Maybe just call the function. I do remember GGally was quite slow
+
+# idea Features eng
+    Remodlling yes or no - YearRemodAdd
+    Some cat var should be transform into number (BsmtQual for example)
+
+
+# Note Single variable relationship
