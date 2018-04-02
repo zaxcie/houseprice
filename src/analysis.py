@@ -29,4 +29,14 @@ def linear_relationship_between_target_and_ordinal_var(ordinal, target, ordinal_
     print("-----------------------------")
     print("\n\n\n")
 
-    return est2.rsquared
+    return est2.rsquared, pearson_coefs[0]
+
+
+def multilinear_relationship_between_target_and_ordinal_var(ordinal, target):
+    X = sm.add_constant(ordinal.astype(float))
+    est = sm.OLS(target, X)
+    est2 = est.fit()
+    print(est2.summary())
+
+    print("-----------------------------")
+    print("\n\n\n")
